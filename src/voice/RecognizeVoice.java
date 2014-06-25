@@ -31,7 +31,7 @@ public class RecognizeVoice extends ResultAdapter implements Runnable {
 	@Override
 	public void run() {
 		try {
-			
+			EngineModeDesc e=new EngineModeDesc(Locale.ENGLISH);
 			recognizer = Central.createRecognizer(new EngineModeDesc(Locale.ROOT));
 			recognizer.allocate();
 			FileReader gramatica = new FileReader("Words.txt");
