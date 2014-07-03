@@ -6,4 +6,4 @@
 
 grammar hello;
 
-public <greet> = (Hola) ( Bhiksha | Evandro | Paul | Philip | Rita | Will );
+public <greet> = ( Computer ) ( one | two );

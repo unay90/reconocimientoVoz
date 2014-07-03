@@ -9,8 +9,6 @@ import edu.cmu.sphinx.recognizer.Recognizer;
 import edu.cmu.sphinx.result.Result;
 import edu.cmu.sphinx.util.props.ConfigurationManager;
 import edu.cmu.sphinx.util.props.PropertyException;
-import voice.RecognizeVoice;
-import voice.Speaker;
 
 public class Main {
 	
